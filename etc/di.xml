@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config>
+    <type name="\Magento\Backend\Controller\Adminhtml\Auth\Login">
+        <!--<plugin name="block-plugin" type="OpsWay\OneLogin\Plugin\BlockPlugin" sortOrder="1"/>-->
+    </type>
+</config>

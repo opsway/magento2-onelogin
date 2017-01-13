@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../vendor/magento/module-config/etc/system_file.xsd">
+    <system>
+        <section id="dev">
+            <group id="onelogin" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>OneLogin</label>
+                <field id="app_id" translate="label" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Application ID</label>
+                </field>
+                <field id="certificate" translate="label" type="textarea" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>x.509 certificate</label>
+                </field>
+                <field id="username" translate="label" sortOrder="40" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Username</label>
+                </field>
+                <field id="email" translate="label" sortOrder="41" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Email</label>
+                </field>
+                <field id="firstname" translate="label" sortOrder="50" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>First Name</label>
+                </field>
+                <field id="lastname" translate="label" sortOrder="51" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Last Name</label>
+                </field>
+                <field id="role" translate="label" sortOrder="52" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Role</label>
+                </field>
+                <field id="magentorole1" translate="label" sortOrder="53" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Magento Role 1</label>
+                </field>
+                <field id="magentomapping1" translate="label" sortOrder="54" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Magento Role Mapping 1</label>
+                </field>
+                <field id="magentorole2" translate="label" sortOrder="55" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Magento Role 2</label>
+                </field>
+                <field id="magentomapping2" translate="label" sortOrder="56" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Magento Role Mapping 2</label>
+                </field>
+                <field id="magentorole3" translate="label" sortOrder="57" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Magento Role 3</label>
+                </field>
+                <field id="magentomapping3" translate="label" sortOrder="58" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Magento Role Mapping 3</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

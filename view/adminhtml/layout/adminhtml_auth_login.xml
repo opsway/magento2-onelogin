@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="admin_login" />
+    <body>
+        <referenceContainer name="form.buttons">
+            <block before="adminhtml_auth_login_buttons" after="adminhtml_auth_login_forgotpassword" class="OpsWay\OneLogin\Block\OneLoginLinkBlock" name="opsway.oneloginlink" template="OpsWay_OneLogin::onelogin_link.phtml" />
+        </referenceContainer>
+        <move element="adminhtml_auth_login_buttons" destination="form.buttons" after="-" />
+    </body>
+</page>
