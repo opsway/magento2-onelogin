@@ -2,6 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../vendor/magento/module-config/etc/system_file.xsd">
     <system>
         <section id="dev">
+            <tab>advanced</tab>
             <group id="onelogin" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>OneLogin</label>
                 <field id="app_id" translate="label" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
