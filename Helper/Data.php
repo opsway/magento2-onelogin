@@ -26,12 +26,11 @@ class Data extends AbstractHelper
 
     public function __construct(
         Context $context,
-        UrlInterface $urlInterface,
         Reader $reader,
         array $data = []
     )
     {
-        $this->urlInterface = $urlInterface;
+        $this->urlInterface = $context->getUrlBuilder();
         $this->reader = $reader;
         parent::__construct($context);
     }
