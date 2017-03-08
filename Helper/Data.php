@@ -38,7 +38,7 @@ class Data extends AbstractHelper
     public function getSettings()
     {
         $currentUrl = $this->getCurrentUrl();
-        $adminUrl = $this->getUrl('adminhtml');
+        $adminUrl = $this->getUrl('admin');
         if (stripos($currentUrl, $adminUrl) === false) {
             $currentUrl = $adminUrl;
         }
